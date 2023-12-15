@@ -15,6 +15,8 @@ function adicionarTarefa(){
 
     }
 
+    inputTarefa.value = "";
+
 }
 
 function marcarConcluida(botaoConcluir){
@@ -31,7 +33,7 @@ function marcarConcluida(botaoConcluir){
     //Remove os botoes da tarefa concluida
     const botoes = tarefa.querySelectorAll("button");
     botoes.forEach(botao => botao.remove());
-    
+
     }
 
 }
